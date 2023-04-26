@@ -1,23 +1,110 @@
-.axis path,
-.axis line {
+/*Example 2.9*/
+.map {
+    border: medium solid rgb(103, 194, 158);
+    margin: 10px 0 0 20px;
+
+}
+/*Example 2.4*/
+
+.countries {
+    fill: rgb(218, 219, 222);
+    stroke: rgb(133, 165, 162);
+    stroke-width: 2px;
+}
+
+/*Example 2.7*/
+.gratLines {
     fill: none;
-    stroke: rgb(0, 157, 255);
+    stroke: rgb(181, 210, 201);
     stroke-width: 1px;
-    shape-rendering: crispEdges;
 }
 
-.axis text {
-    font-family: sans-serif;
-    font-size: 0.9em;
-    color: rgb(2, 35, 57)
+.gratBackground {
+    fill:rgba(177, 225, 211, 0.2);
+}
+.countries {
+    stroke: #000;
+    stroke-width: 0.5px;
+    stroke-linecap: round;
 }
 
-.title {
+.chart {
+    background-color: rgba(177, 225, 211, 0.2);
+    border: medium solid  rgba(103, 194, 158) ;
+    float: right;
+    margin: 10px 20px 0 0;
+}
+
+.numbers {
+    fill: rgb(24, 24, 26);
     font-family: sans-serif;
-    font-size: 1.5em;
+}
+
+.chartTitle {
+    top: 0px;
+    font-family: serif;
+    font-size: 1.25em;
     font-weight: bold;
-    color: rgb(2, 35, 57);
+    fill: rgb(32, 48, 48);
+    text-align: center;
+
 }
-.labels {
-    color:rgb(2, 35, 57) ;
+.dropdown {
+    position: absolute;
+    z-index: 10;
+    font-family: serif;
+    font-size: 1em;
+    font-weight: bold;
+    padding: 2px;
+    border: 1px solid #999;
+    box-shadow: 2px 2px 4px #999;
 }
+
+option {
+    font-weight: normal;
+}
+.infolabel {
+    position: fixed;
+    height: 50px;
+    min-width: 100px;
+    color: #fff;
+    background-color: rgba(103, 194, 158);
+    border: solid thin #fff;
+    padding: 5px 10px;
+    text-align: center;
+    top: -75px;
+    font-family: serif;
+}
+
+.infolabel h1 {
+    margin: 0 20px 0 0;
+    padding: 0;
+    display: inline-block;
+    line-height: 1em;
+}
+
+.banner{
+        background-color:  rgba(180, 233, 217, 0.732);
+        text-align: center;
+        padding: 2px;
+        font-size: 18px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: rgb(32, 48, 48);
+        border-radius: 25px;
+        
+}
+.legend{
+    position: absolute;
+    margin: 7px;
+    color: rgb(0, 255, 94);
+}
+body{
+    background-color:  rgba(180, 233, 217, 0.253); 
+    padding-bottom: 60px;
+}
+
+
+.footer {
+    position: relative;
+    text-align: center;
+ }
