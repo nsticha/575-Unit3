@@ -84,15 +84,7 @@ var yScale = d3.scaleLinear()
         };
         
         console.log(top)
-        //add select element
-        var dropdown = d3.select("body")
-            .append("select")
-            .attr("class", "dropdown")
-            .style('left',left + "px")
-            .style("top",top + "px")
-            .on("change", function () {
-                changeAttribute(this.value, csvData)
-            });
+        
     };
     // function to create color scale generator
     function makeColorScale(data) {
